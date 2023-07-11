@@ -1,37 +1,20 @@
 body {
-  font-family: roboto;
-  background-color: #ffffff;
-}
-.web-color {
-  color: #4d5ae5;
-}
-ul {
-  list-style-type: none;
-}
-a {
-  text-decoration: none;
-  color: #404bbf;
+  font-family: roboto; sans-serif;
+  background-color: #FFF; 
 }
 
-.nav-items a {
-  color: #2e2f42;
-}
-.nav-items a:hover {
-  color: #404bbf;
-}
-.address-items a {
-  color: #434455;
-}
-.address-items a:hover {
-  color: #404bbf;
-}
-.order-button {
-  background-color: #4d5ae5;
-  color: #fff;
+:root{
+  --background-color: #FFF;
+  --text-color: #2E2F42;
+  --footer-text-color: #F4F4FD;
+  --footer-bg-color: #2E2F42;
+  --paragraph-color: #434455;
 }
 
-.order-button:hover {
-  background-color: #404bbf;
-  color: #ffffff;
-  cursor: pointer;
-}
+
+
+
+/**-----Header
+
+
+
