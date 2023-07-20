@@ -281,7 +281,7 @@ ol {
 /*!---------------------FOOTER--------------- */
 .footer {
   background-color: var(--footer-bg-color);
-  padding-top: 102px;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 .footer-text {
