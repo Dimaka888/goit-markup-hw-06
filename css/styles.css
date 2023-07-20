@@ -291,13 +291,13 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-top: 18px;
 }
 
 .logo-footer {
   color: #f4f4fd;
 }
 .logo-link {
+  margin-bottom: 18px;
 }
 
 .visually-hidden {
