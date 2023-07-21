@@ -361,6 +361,7 @@ ol {
 .button-filters:focus {
   background-color: var(--nav-color);
   color: var(--background-color);
+  border: 1px solid transparent;
 }
 .portfolio-img-title {
   color: var(--footer-bg-color);
