@@ -288,6 +288,7 @@ ol {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .footer-text {
   color: var(--footer-text-color);
   font-size: 16px;
@@ -301,7 +302,8 @@ ol {
   color: #f4f4fd;
 }
 .footer-logo-link {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
 .visually-hidden {
