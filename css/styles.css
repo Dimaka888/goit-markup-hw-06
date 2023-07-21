@@ -380,8 +380,8 @@ ol {
   letter-spacing: 0.02em;
 }
 .filters-item {
-  padding-bottom: 32px;
   border: 1px solid var(--cornflower, #e7e9fc);
+  width: calc((100%-2 * 24px) / 3);
 }
 .filter-category {
   padding: 32px 16px;
