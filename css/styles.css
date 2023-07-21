@@ -378,11 +378,3 @@ ol {
   padding-bottom: 32px;
   border: 1px solid var(--cornflower, #e7e9fc);
 }
-/**--------MODUL3---------*/
-
-/*.list-item {
-  width: 264px;
-  display: inline-block;
-}
-
- width: calc((100% -2 * 24px) / 10);*/
