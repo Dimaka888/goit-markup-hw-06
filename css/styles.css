@@ -215,8 +215,6 @@ ol {
   display: flex;
   justify-content: center;
 }
-.work-container {
-}
 
 .section-works-title {
   color: var(--hero-bg);
