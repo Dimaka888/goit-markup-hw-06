@@ -391,15 +391,19 @@ ol {
 }
 
 /*!---------------------Customers--------------- */
+.container-customers {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .title-customers {
   color: var(--footer-bg-color);
   text-align: center;
-  padding-top: 120px;
+
   margin-bottom: 72px;
   font-family: Roboto;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -407,7 +411,6 @@ ol {
 .customer-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .customer-list > li {
