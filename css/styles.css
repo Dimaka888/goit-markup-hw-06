@@ -254,6 +254,7 @@ ol {
 .feature-item {
   width: 100%;
   max-width: 264px;
+  justify-content: center;
 }
 .feature-list {
   gap: 24px;
@@ -265,6 +266,7 @@ ol {
   margin-bottom: 8px;
   display: flex;
   align-items: center;
+  min-height: 112px;
 }
 
 /*!-------SECTION WHAT ARE WE DOING------- */
