@@ -90,6 +90,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--text-color);
   padding-top: 24px;
+  padding-bottom: 24px;
   position: relative;
   transition-property: color;
   transition-duration: 250ms;
@@ -102,7 +103,7 @@ ol {
   color: var(--nav-color);
 }
 
-.nav-item:first-child::after {
+.after-studio::after {
   content: "";
   margin-top: 20px;
   width: 100%;
@@ -114,11 +115,10 @@ ol {
   left: 0;
   bottom: -1px;
 }
-.nav-item:first-child a {
+.after-studio {
   color: var(--nav-color);
 }
-
-.nav-item:nth-child(2)::after {
+.after-portfolio::after {
   content: "";
   margin-top: 20px;
   width: 100%;
@@ -126,6 +126,9 @@ ol {
   border-radius: 2px;
   background: var(--ocean, #404bbf);
   display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
 }
 
 .header-container {
