@@ -114,6 +114,9 @@ ol {
   left: 0;
   bottom: -1px;
 }
+.nav-item:first-child a {
+  color: var(--nav-color);
+}
 
 .nav-item:nth-child(2)::after {
   content: "";
