@@ -254,13 +254,14 @@ ol {
 .feature-item {
   width: 100%;
   max-width: 264px;
-  min-height: 112px;
 }
+
 .feature-list {
   gap: 24px;
   display: flex;
 }
 .icon-svg {
+  min-height: 112px;
   background-color: var(--footer-text-color);
   padding: 24px 100px;
   margin-bottom: 8px;
