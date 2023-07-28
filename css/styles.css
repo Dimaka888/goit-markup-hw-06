@@ -422,7 +422,7 @@ ol {
 }
 .customer-icon {
   fill: #8e8f99;
-  transition-property: fill;
+  transition-property: border-color, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -439,7 +439,8 @@ ol {
 
 .customer-icon:hover,
 .customer-icon:focus {
-  fill: #4d5ae5;
+  border-color: #404bbf;
+  color: #404bbf;
 }
 
 /*!---------------------FOOTER--------------- */
