@@ -578,6 +578,8 @@ ol {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.portfolio-img-text {
+}
 
 .btn-fiters-item {
   color: var(--web-logo-color);
@@ -633,6 +635,11 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.filters-cover-text:hover,
+.filters-cover-text:focus {
+  transform: translateY(0);
+}
+
 .filters-item a:focus .filters-cover,
 .filters-item a:hover .filters-cover {
   transform: translateY(0);
