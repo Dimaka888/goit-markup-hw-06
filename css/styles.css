@@ -564,13 +564,7 @@ ol {
   width: calc((100% - 48px) / 3);
   position: relative;
 }
-.filters-item a {
-  display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .filters-item a:hover,
 .filters-item a:focus {
   transform: translateY(0);
@@ -636,6 +630,7 @@ ol {
   letter-spacing: 0.02em;
 }
 .link-portfolio {
+  display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -643,6 +638,7 @@ ol {
 .link-portfolio:focus .filters-cover-text {
   transform: translateY(0);
 }
+
 /*.filters-item a:focus .filters-cover,
 .filters-item a:hover .filters-cover {
   transform: translateY(0);
