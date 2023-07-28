@@ -704,6 +704,7 @@ ol {
 .modal-close-btn:focus {
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
 }
 
 .is-hidden {
