@@ -387,7 +387,7 @@ ol {
 }
 .team-logo-item:hover a,
 .team-logo-item:focus a {
-  background-color: var(--nav-color);
+  background-color: #404bbf;
 }
 
 /*!---------------------Customers--------------- */
