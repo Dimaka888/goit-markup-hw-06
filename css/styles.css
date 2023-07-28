@@ -421,7 +421,7 @@ ol {
   width: calc((100% - 120px) / 6);
 }
 .customer-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 .customer-link {
   width: 100%;
