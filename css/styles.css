@@ -639,12 +639,10 @@ ol {
 .filters-item a:focus .portfolio-cover-text {
   transform: translateY(0);
 }
-
-.filters-item a:focus .filters-cover,
+/*.filters-item a:focus .filters-cover,
 .filters-item a:hover .filters-cover {
-  transform: translateY(0);
+  transform: translateY(0);*/
 }
-
 /*!--------MODAL WINDOW----------*/
 
 .backdrop {
