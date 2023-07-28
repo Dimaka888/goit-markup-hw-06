@@ -274,7 +274,7 @@ ol {
   display: flex;
 }
 .icon-svg {
-  min-height: 112px;
+  height: 112px;
   background-color: var(--footer-text-color);
   padding: 24px 100px;
   margin-bottom: 8px;
