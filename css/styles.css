@@ -465,9 +465,8 @@ ol {
   gap: 16px;
   display: flex;
 }
-
-.social-media {
-  margin-left: 120px;
+.footer-logo-container {
+  margin-right: 120px;
 }
 
 .footer {
@@ -477,6 +476,7 @@ ol {
 }
 .footer-conteiner {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-text {
