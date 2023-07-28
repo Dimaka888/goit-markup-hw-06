@@ -422,9 +422,6 @@ ol {
 }
 .customer-icon {
   fill: #8e8f99;
-  transition-property: border-color, color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customer-link {
   width: 100%;
@@ -435,10 +432,13 @@ ol {
   align-items: center;
   justify-content: center;
   color: #8e8f99;
+  transition-property: border-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.customer-icon:hover,
-.customer-icon:focus {
+.customer-link:hover,
+.customer-link:focus {
   border-color: #404bbf;
   color: #404bbf;
 }
