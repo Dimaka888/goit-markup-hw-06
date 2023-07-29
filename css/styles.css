@@ -720,3 +720,7 @@ ol {
   visibility: hidden;
   pointer-events: none;
 }
+.modal-close-btn:hover .modal-icon,
+.modal-close-btn:focus .modal-icon {
+  fill: #ffffff;
+}
