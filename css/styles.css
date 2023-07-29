@@ -386,10 +386,10 @@ ol {
   justify-content: center;
   margin: 12px 12px;
 }
-.team-logo-item:hover a {
+.team-logo-item a:hover {
   background-color: #404bbf;
 }
-.team-logo-item:focus a {
+.team-logo-item a:focus {
   background-color: #404bbf;
 }
 
