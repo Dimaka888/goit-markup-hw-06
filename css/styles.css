@@ -628,7 +628,7 @@ ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  height: 100%;
   padding: 40px 32px;
   background-color: #4d5ae5;
   height: 100%;
@@ -690,7 +690,6 @@ ol {
   background-color: #e7e9fc;
   padding: 0;
   border: 1px solid rgba(0, 0, 0, 0.1);
-
   margin: 0 auto;
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
