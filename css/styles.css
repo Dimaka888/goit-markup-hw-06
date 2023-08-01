@@ -801,3 +801,6 @@ input {
 .modal-comment:focus {
   border-color: var(--web-logo-color);
 }
+.comment-div {
+  margin-bottom: 16px;
+}
