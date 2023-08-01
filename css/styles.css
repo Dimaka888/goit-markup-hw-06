@@ -4,6 +4,7 @@ body {
   background-color: var(--background-color);
 }
 :root {
+  --lightslate: #8e8f99;
   --modal: #fcfcfc;
   --cornflower-color: #e7e9fc;
   --background-color: #ffffff;
@@ -63,6 +64,16 @@ ol {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+input {
+  font-family: inherit;
 }
 
 /*! Header style */
@@ -167,17 +178,13 @@ ol {
 }
 .contacts-link {
   color: var(--paragraph-color);
-  font-size: 16px;
-  font-weight: 400;
+  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: inline-block;
   padding-top: 24px;
   padding-bottom: 24px;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  /*transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-list {
   display: flex;
@@ -201,6 +208,7 @@ ol {
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-title {
@@ -208,9 +216,7 @@ ol {
   color: var(--white, #fff);
   text-align: center;
   /* Header 1 */
-  font-family: Roboto;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   margin: 0 auto 48px;
@@ -674,6 +680,7 @@ ol {
   left: 50%;
   transform: translate(-50%, -50%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .modal-icon {
   fill: var(--footer-bg-color);
@@ -723,4 +730,33 @@ ol {
 .modal-close-btn:hover .modal-icon,
 .modal-close-btn:focus .modal-icon {
   fill: #ffffff;
+}
+/*!Modal-form*/
+.modal-span {
+  color: var(--hero-bg);
+  text-align: center;
+  /* Body Medium */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.02em;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 16px;
+}
+.label-text {
+  color: var(--lightslate);
+  /* Small Text */
+  font-size: 12px;
+  line-height: 1.16; /* 116.667% */
+  letter-spacing: 0.04em;
+}
+.label-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.modal-input {
+  position: relative;
 }
