@@ -1,4 +1,4 @@
-body {
+*body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--background-color);
@@ -833,7 +833,14 @@ input {
   fill: transparent;
 }
 
-.modal-check-input:checked + .check-icon .privacy-span {
+/*
+  .modal-check-input:checked + .check-icon .privacy-span {
+    fill: var(--footer-text-color);
+    background-color: var(--nav-color);
+    border: none;
+  }*/
+
+input[type="checkbox"]:checked + .check-text .privacy-span {
   fill: var(--footer-text-color);
   background-color: var(--nav-color);
   border: none;
