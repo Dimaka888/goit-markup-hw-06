@@ -804,3 +804,19 @@ input {
 .comment-div {
   margin-bottom: 16px;
 }
+.check-box {
+  margin-bottom: 24px;
+}
+.check-text {
+  color: var(--lightslate);
+  font-size: 12px;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: 0.04em;
+}
+.privacy-span {
+  color: var(--web-logo-color);
+  font-size: 12px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-decoration-line: underline;
+}
