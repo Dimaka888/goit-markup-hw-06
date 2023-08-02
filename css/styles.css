@@ -811,6 +811,9 @@ input {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.04em;
 }
+.privacy-link {
+  color: #4d5ae5;
+}
 .privacy-span {
   display: inline-flex;
   align-items: center;
@@ -830,8 +833,26 @@ input {
   fill: transparent;
 }
 
-.modal-check-input:checked + .privacy-span {
+.modal-check-input:checked + .privacy-span .check-text {
   fill: var(--footer-text-color);
   background-color: var(--nav-color);
   border: none;
+}
+
+/*!--------MODAL_BTN--------------*/
+.modal-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: var(--web-logo-color);
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
