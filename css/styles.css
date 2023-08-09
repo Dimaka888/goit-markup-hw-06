@@ -25,10 +25,9 @@ img {
 
 .container {
   /* width: 1158px; */
-  width: 1158px;
   max-width: 1440px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -251,33 +250,42 @@ input {
 /*! SECTION FEAURE */
 
 .section-feature {
-  padding: 120px 0;
+  /* padding: 120px 0; */
+  padding: 96px 0;
+  display: flex;
 }
 .feature-title {
   font-family: inherit;
   color: var(--footer-bg-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
+  /* font-size: 20px; */
+  font-size: 36px;
+  /* font-weight: 500; */
+  font-weight: 700;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  justify-content: center;
+  display: flex;
 }
 
 .feature-text {
   color: var(--paragraph-color);
   font-size: 16px;
-  font-weight: 400;
+  /* font-weight: 400; */
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .feature-item {
+  /* max-width: 264px; */
   width: 100%;
-  max-width: 264px;
 }
 
 .feature-list {
-  gap: 24px;
+  /* gap: 24px;*/
   display: flex;
+  gap: 72px;
+  flex-direction: column;
 }
 .icon-svg {
   height: 112px;
@@ -288,6 +296,7 @@ input {
   align-items: center;
   border-radius: 4px;
   justify-content: center;
+  display: none;
 }
 
 /*!-------SECTION WHAT ARE WE DOING------- */
@@ -316,8 +325,9 @@ input {
 /*!------SECTION OUR TEAM--------- */
 .section-our-team {
   background-color: var(--footer-text-color);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  /* padding-top: 120px;
+  padding-bottom: 120px; */
+  padding: 96px 0;
 }
 .title-our-team {
   color: var(--footer-bg-color);
@@ -331,13 +341,10 @@ input {
 }
 .team-list {
   display: flex;
-  gap: 24px;
-}
-.team {
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  gap: 72px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-name {
@@ -348,6 +355,7 @@ input {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 .team-card {
   padding-top: 32px;
@@ -364,6 +372,10 @@ input {
   margin-bottom: 8px;
 }
 .team {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   background-color: var(--background-color);
 }
 
@@ -372,6 +384,12 @@ input {
   display: flex;
   gap: 24px;
   justify-content: center;
+  align-items: center;
+}
+
+.team-logo-item {
+  width: 40px;
+  height: 40px;
 }
 
 .team-logo-item a {
