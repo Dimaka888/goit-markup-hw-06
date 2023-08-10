@@ -74,7 +74,27 @@ fieldset {
 input {
   font-family: inherit;
 }
-
+/*! Header burger */
+.mobile-menu {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4f4fd;
+}
+.is-hidden {
+}
+.menu-list {
+}
+.list {
+}
+.menu-item {
+}
+.list-item {
+}
+.menu-item-link {
+}
+.link {
+}
 /*! Header style */
 
 .header {
@@ -336,6 +356,7 @@ input {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .team-list {
   display: flex;
   gap: 72px;
@@ -415,6 +436,9 @@ input {
 }
 
 /*!---------------------Customers--------------- */
+.container-team {
+  max-width: 427px;
+}
 .customers-section {
   padding-top: 120px;
   padding-bottom: 120px;

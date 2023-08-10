@@ -6,6 +6,9 @@
   .contacts {
     display: none;
   }
+  .header {
+    height: 70px;
+  }
 }
 @media screen and (max-width: 1157px) {
   .contacts-item:first-child {
@@ -274,8 +277,4 @@
   }
 }
 
-@media screen and (max-width: 767px) {
-  .footer {
-    margin-top: 72px;
-  }
-}
+/*!---------------mobile menu--------------------*/
