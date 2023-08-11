@@ -278,3 +278,34 @@
 }
 
 /*!---------------mobile menu--------------------*/
+
+@media screen and (min-width: 768px) {
+  .mobile-menu-container {
+    display: none;
+  }
+  .open-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .mobile-list-logo {
+    gap: calc((100% - 160px) / 4);
+  }
+
+  .menu-contacts {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 403px) {
+  .contact-tel {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .mobile-menu {
+    max-width: 428px;
+  }
+}
+/*!---------------HERO--------------------*/
