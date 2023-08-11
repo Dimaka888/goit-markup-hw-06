@@ -334,13 +334,22 @@ input {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/hero-bg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  /* max-width: 1440px;
-  margin: 0 auto; */
   width: 100%;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-mob-2x.jpg);
+  }
 }
 
 .main-title {
@@ -399,6 +408,7 @@ input {
 }
 
 .feature-text {
+  font-family: Roboto;
   color: var(--paragraph-color);
   font-size: 16px;
   font-weight: 500;
