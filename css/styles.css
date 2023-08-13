@@ -101,6 +101,7 @@ input {
   z-index: 999;
   transform: translateX(0);
   transition: transform 250ms ease-in-out;
+  overflow-y: hidden;
 }
 
 .is-hidden {
