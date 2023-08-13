@@ -71,73 +71,71 @@
         </button>
       </div>
       <div class="mobile-menu-container is-hidden" data-menu>
-        <div class="mobile-menu">
-          <button type="button" class="close-menu" data-menu-close>
-            <svg class="mobil-close-icon" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black"></use>
-            </svg>
-          </button>
-          <ul class="menu-list list">
-            <li class="menu-item list-item">
-              <a href="./index.html" class="menu-item-link current link"
-                >Studio</a
+        <!-- <div class="mobile-menu"> -->
+        <button type="button" class="close-menu" data-menu-close>
+          <svg class="mobil-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <ul class="menu-list list">
+          <li class="menu-item list-item">
+            <a href="./index.html" class="menu-item-link current link"
+              >Studio</a
+            >
+          </li>
+          <li class="menu-item list-item">
+            <a href="./portfolio.html" class="menu-item-link link">Portfolio</a>
+          </li>
+          <li class="menu-item list-item">
+            <a href="" class="menu-item-link link">Contacts</a>
+          </li>
+        </ul>
+        <address class="menu-contacts">
+          <ul class="menu-contacts-list list">
+            <li class="menu-contacts-item list-item">
+              <a
+                href="tel:+110001111111"
+                class="menu-contacts-link contact-tel link"
+                >+11 (000) 111-11-11</a
               >
             </li>
-            <li class="menu-item list-item">
-              <a href="./portfolio.html" class="menu-item-link link"
-                >Portfolio</a
+            <li class="menu-contacts-item list-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="menu-contacts-link mail-contacts link"
+                >info@devstudio.com</a
               >
-            </li>
-            <li class="menu-item list-item">
-              <a href="" class="menu-item-link link">Contacts</a>
             </li>
           </ul>
-          <address class="menu-contacts">
-            <ul class="menu-contacts-list list">
-              <li class="menu-contacts-item list-item">
-                <a
-                  href="tel:+110001111111"
-                  class="menu-contacts-link contact-tel link"
-                  >+11 (000) 111-11-11</a
-                >
-              </li>
-              <li class="menu-contacts-item list-item">
-                <a
-                  href="mailto:info@devstudio.com"
-                  class="menu-contacts-link mail-contacts link"
-                  >info@devstudio.com</a
-                >
-              </li>
-            </ul>
-          </address>
+        </address>
 
-          <ul class="mobile-list-logo list">
-            <li class="mobile-logo-item">
-              <a class="menu-link-social link" href="instagram"
-                ><svg class="mobile-future-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-instagram"></use></svg
-              ></a>
-            </li>
-            <li class="mobile-logo-item">
-              <a class="menu-link-social link" href="twitter"
-                ><svg class="mobile-future-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-twitter"></use></svg
-              ></a>
-            </li>
-            <li class="mobile-logo-item">
-              <a class="menu-link-social link" href="facebook"
-                ><svg class="mobile-future-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-facebook"></use></svg
-              ></a>
-            </li>
-            <li class="mobile-logo-item">
-              <a class="menu-link-social link" href="linkedin"
-                ><svg class="mobile-future-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-linkedin"></use></svg
-              ></a>
-            </li>
-          </ul>
-        </div>
+        <ul class="mobile-list-logo list">
+          <li class="mobile-logo-item">
+            <a class="menu-link-social link" href="instagram"
+              ><svg class="mobile-future-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-instagram"></use></svg
+            ></a>
+          </li>
+          <li class="mobile-logo-item">
+            <a class="menu-link-social link" href="twitter"
+              ><svg class="mobile-future-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-twitter"></use></svg
+            ></a>
+          </li>
+          <li class="mobile-logo-item">
+            <a class="menu-link-social link" href="facebook"
+              ><svg class="mobile-future-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-facebook"></use></svg
+            ></a>
+          </li>
+          <li class="mobile-logo-item">
+            <a class="menu-link-social link" href="linkedin"
+              ><svg class="mobile-future-icon" width="16" height="16">
+                <use href="./images/icons.svg#icon-linkedin"></use></svg
+            ></a>
+          </li>
+        </ul>
+        <!-- </div> -->
       </div>
     </header>
     <main>
@@ -212,6 +210,7 @@
           <ul class="list works-list">
             <li class="works-list-items list-item">
               <img
+                srcset="./images/img1.jpg 1x, ./images/computer-2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="monitor"
                 width="360"
@@ -220,6 +219,7 @@
             </li>
             <li class="works-list-items list-item">
               <img
+                srcset="./images/img2.jpg 1x, ./images/phones-2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="pgone-display"
                 width="360"
@@ -228,6 +228,7 @@
             </li>
             <li class="works-list-items list-item">
               <img
+                srcset="./images/img3.jpg 1x, ./images/phone-2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="phone-in-hand"
                 width="360"
@@ -243,6 +244,10 @@
           <ul class="list team-list">
             <li class="list-item team">
               <img
+                srcset="
+                  ./images/our_team/product_designer.jpg    1x,
+                  ./images/our_team/product_designer-2x.jpg 2x
+                "
                 src="./images/our_team/product_designer.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -284,6 +289,10 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="
+                  ./images/our_team/developer.jpg    1x,
+                  ./images/our_team/developer-2x.jpg 2x
+                "
                 src="./images/our_team/developer.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -325,6 +334,10 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="
+                  ./images/our_team/marketing.jpg    1x,
+                  ./images/our_team/marketing-2x.jpg 2x
+                "
                 src="./images/our_team/marketing.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -366,6 +379,10 @@
             </li>
             <li class="list-item team">
               <img
+                srcset="
+                  ./images/our_team/ui_designer.jpg,
+                  ./images/our_team/ui_designer-2x.jpg 2x
+                "
                 src="./images/our_team/ui_designer.jpg"
                 alt="Daniel Wilson"
                 width="264"
